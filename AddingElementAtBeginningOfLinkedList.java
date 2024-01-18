@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CreatingLinkedList {
+public class AddingElementAtBeginningOfLinkedList {
     public static void main(String [] args){
         Node head = new Node(10);
         Node second = new Node(20);
@@ -24,7 +24,7 @@ public class CreatingLinkedList {
         System.out.println(); 
     }
 
-    public static void addElementAtTheBeginning(Node head){
+    public static void addElementAtTheBeginning(Node head){      // to add element at the beginning of the linked list
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the value for the new Node: ");
         int n = sc.nextInt();
