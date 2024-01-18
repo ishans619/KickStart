@@ -22,9 +22,10 @@ public class CreatingLinkedList {
             current = current.next;
         }
         System.out.println(); 
+        System.out.println();
     }
 
-    public static void addElementAtTheBeginning(Node head){
+    public static void addElementAtTheBeginning(Node head){  
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the value for the new Node: ");
         int n = sc.nextInt();

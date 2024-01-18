@@ -5,8 +5,6 @@ public class Node {
     public Node(int data){// constructor to initialize the object of the Node class 
         this.data = data;
         this.next = null;
-
     }
-    
 };
     

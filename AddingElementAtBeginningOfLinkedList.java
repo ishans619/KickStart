@@ -22,6 +22,7 @@ public class AddingElementAtBeginningOfLinkedList {
             current = current.next;
         }
         System.out.println(); 
+        System.out.println();
     }
 
     public static void addElementAtTheBeginning(Node head){      // to add element at the beginning of the linked list
