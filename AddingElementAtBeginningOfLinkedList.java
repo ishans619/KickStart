@@ -33,6 +33,7 @@ public class AddingElementAtBeginningOfLinkedList {
         newNode.next = head;
         head = newNode;
         PrintLinkedList(head);
+        System.out.println();
         sc.close();
     }
 }
