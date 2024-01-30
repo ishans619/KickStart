@@ -20,9 +20,21 @@ public class ConvertingArrToLL {
         return head;
     }
 
+    private static int LenghtLL(Node head){
+        int count = 0;
+        Node temp = head;
+        while(temp != null){
+            temp = temp.next;
+            count++;
+        }
+        return count;
+    }
+
     public static void main(String [] args){
         int arr[] = {1,2,3,4,5,6,7};
         Node head = ConvertToLL(arr);
+        int lenght = LenghtLL(head);
+        System.out.println("Length:" + lenght);
         
         Node temp = head;
         while(temp != null){
